@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()){
             case R.id.false_button:
                 Toast.makeText(MainActivity.this,"False",Toast.LENGTH_SHORT).show();
+                break;
 
             case R.id.true_button:
                 Toast.makeText(MainActivity.this,"True",Toast.LENGTH_SHORT).show();
