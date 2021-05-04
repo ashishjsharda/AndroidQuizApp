@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -28,6 +29,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.false_button:
+                Toast.makeText(MainActivity.this,"False",Toast.LENGTH_SHORT).show();
+
+            case R.id.true_button:
+                Toast.makeText(MainActivity.this,"True",Toast.LENGTH_SHORT).show();
+        }
 
     }
 }
