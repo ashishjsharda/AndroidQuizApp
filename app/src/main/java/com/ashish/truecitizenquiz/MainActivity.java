@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Question question=new Question(R.string.question_declaration,true);
         falseButton=findViewById(R.id.false_button);
         trueButton=findViewById(R.id.true_button);
         questionTextView=findViewById(R.id.answer_text_view);
