@@ -45,5 +45,10 @@
      </Button>
 
  </LinearLayout>
+    <ImageButton
+        android:id="@+id/next_Button"
+        android:src="@android:drawable/ic_media_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ImageButton>
 </LinearLayout>
 

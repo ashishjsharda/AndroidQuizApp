@@ -13,6 +13,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button falseButton;
     private Button trueButton;
     private TextView questionTextView;
+    private Question[] questionBank=new Question[]{
+            new Question(R.string.question_us_amendments,false),
+            new Question(R.string.question_declaration,false)
+
+    };
 
 
     @Override
